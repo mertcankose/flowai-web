@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="text-gray-800" style={{ backgroundColor: '#F6D39C' }}>
+    <footer className="text-gray-800 border-t border-orange-200/40">
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-8">
           {/* Logo & Description */}
@@ -72,7 +72,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 pt-8 border-t border-gray-400/50">
+        <div className="mt-12 pt-8 border-t border-orange-300/60">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-700 text-sm text-center md:text-left">
               © {new Date().getFullYear()} Flow AI. All rights reserved.

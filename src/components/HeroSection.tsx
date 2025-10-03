@@ -1,8 +1,9 @@
 import { Mic } from "lucide-react"; // Changed from Zap to Mic icon
 import appstorelogo from "@/assets/images/app-store.png";
 import playstorelogo from "@/assets/images/play-store.png";
-import playstoremarket1 from "@/assets/images/appstoremarket1.jpeg";
+// import playstoremarket1 from "@/assets/images/appstoremarket1.jpeg";
 import appstoremarket1 from "@/assets/images/playstoremarket1.jpeg";
+import appInside from "@/assets/images/app-inside-3.jpeg";
 import { appStore, playStore } from "@/constants/url";
 
 const HeroSection = () => {
@@ -83,7 +84,7 @@ const HeroSection = () => {
                   z-30
                 "
                 >
-                  <img src={playstoremarket1} alt="Flow AI Rap Generation" className="w-full h-full object-cover" />
+                  <img src={appInside} alt="Flow AI Rap Generation" className="w-full h-full object-cover" />
                   <div className="absolute inset-0 bg-gradient-to-t from-orange-500/20 to-transparent" />
                 </div>
                 <div
