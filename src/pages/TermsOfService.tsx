@@ -154,20 +154,7 @@ const TermsOfService = () => {
 
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-4">
-          8. Subscription and Credits
-        </h2>
-        <p className="mb-3">
-          Subscriptions are available on a monthly or annual basis. Each plan
-          includes a set number of credits. All purchases are final and
-          non-refundable unless required by law. Subscriptions automatically
-          renew unless cancelled before the renewal date. You can manage and
-          cancel subscriptions through your device's app store settings.
-        </p>
-      </section>
-
-      <section className="mb-6">
-        <h2 className="text-2xl font-semibold mb-4">
-          9. Disclaimer of Warranties
+          8. Disclaimer of Warranties
         </h2>
         <p>
           Flow AI is provided "as is" without any warranties. We do not
@@ -179,7 +166,7 @@ const TermsOfService = () => {
 
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-4">
-          10. Limitation of Liability
+          9. Limitation of Liability
         </h2>
         <p>
           To the maximum extent permitted by law, we shall not be liable for any
@@ -189,7 +176,7 @@ const TermsOfService = () => {
       </section>
 
       <section className="mb-6">
-        <h2 className="text-2xl font-semibold mb-4">11. Termination</h2>
+        <h2 className="text-2xl font-semibold mb-4">10. Termination</h2>
         <p>
           We reserve the right to terminate or suspend your access to Flow AI at
           any time, without notice, for any reason, including violation of these
@@ -198,7 +185,7 @@ const TermsOfService = () => {
       </section>
 
       <section className="mb-6">
-        <h2 className="text-2xl font-semibold mb-4">12. Changes to Terms</h2>
+        <h2 className="text-2xl font-semibold mb-4">11. Changes to Terms</h2>
         <p>
           We may modify these Terms at any time. Continued use of the App after
           changes constitutes acceptance of the modified Terms.
@@ -206,7 +193,7 @@ const TermsOfService = () => {
       </section>
 
       <section className="mb-6">
-        <h2 className="text-2xl font-semibold mb-4">13. Third Party Access</h2>
+        <h2 className="text-2xl font-semibold mb-4">12. Third Party Access</h2>
         <p className="mb-3">
           Flow AI utilizes the following third-party services:
         </p>
@@ -220,12 +207,43 @@ const TermsOfService = () => {
       </section>
 
       <section className="mb-6">
-        <h2 className="text-2xl font-semibold mb-4">14. Governing Law</h2>
+        <h2 className="text-2xl font-semibold mb-4">13. Governing Law</h2>
         <p>
           These Terms shall be governed by and construed in accordance with the
           applicable laws of your jurisdiction, without regard to its conflict
           of law provisions.
         </p>
+      </section>
+
+      <section className="mb-6">
+        <h2 className="text-2xl font-semibold mb-4">
+          14. Subscription and Credits
+        </h2>
+        <p className="mb-3">
+          Subscriptions are available on a weekly, monthly, or annual basis.
+          All purchases are final and non-refundable unless required by law.
+          Subscriptions automatically renew unless cancelled before the renewal
+          date. You can manage and cancel subscriptions through your device's
+          app store settings.
+        </p>
+        <h3 className="text-xl font-semibold mb-3">Subscription Plans:</h3>
+        <ul className="list-disc ml-6 mb-4">
+          <li>
+            <strong>Annual Plan:</strong> $79.99/year - 650 credits per year
+          </li>
+          <li>
+            <strong>Monthly Plan:</strong> $6.99/month - 50 credits per month
+          </li>
+          <li>
+            <strong>Weekly Plan:</strong> $2.99/week - 12 credits per week
+          </li>
+        </ul>
+        <h3 className="text-xl font-semibold mb-3">Additional Credits:</h3>
+        <ul className="list-disc ml-6">
+          <li>35 credits - $12.99</li>
+          <li>15 credits - $5.99</li>
+          <li>5 credits - $1.99</li>
+        </ul>
       </section>
 
       <section className="mb-6">

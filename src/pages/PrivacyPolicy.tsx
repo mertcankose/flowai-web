@@ -154,7 +154,29 @@ const PrivacyPolicy = () => {
       </section>
 
       <section className="mb-6">
-        <h2 className="text-2xl font-semibold mb-4">11. Contact Us</h2>
+        <h2 className="text-2xl font-semibold mb-4">11. Subscription Plans & Pricing</h2>
+        <p className="mb-3">Flow AI offers the following subscription plans:</p>
+        <ul className="list-disc ml-6 mb-4">
+          <li>
+            <strong>Annual Plan:</strong> $79.99/year - 650 credits per year
+          </li>
+          <li>
+            <strong>Monthly Plan:</strong> $6.99/month - 50 credits per month
+          </li>
+          <li>
+            <strong>Weekly Plan:</strong> $2.99/week - 12 credits per week
+          </li>
+        </ul>
+        <p className="mb-3">Additional credits can be purchased separately:</p>
+        <ul className="list-disc ml-6">
+          <li>35 credits - $12.99</li>
+          <li>15 credits - $5.99</li>
+          <li>5 credits - $1.99</li>
+        </ul>
+      </section>
+
+      <section className="mb-6">
+        <h2 className="text-2xl font-semibold mb-4">12. Contact Us</h2>
         <p>
           For any privacy-related questions or concerns, please contact us at:{" "}
           <a

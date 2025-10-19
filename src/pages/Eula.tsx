@@ -107,6 +107,39 @@ const Eula = () => {
       </section>
 
       <section className="mb-6">
+        <h2 className="text-2xl font-semibold mb-4">
+          8. Subscription Plans and Pricing
+        </h2>
+        <p className="mb-3">
+          Flow AI offers the following subscription options with included
+          credits for AI-powered rap music generation:
+        </p>
+        <h3 className="text-xl font-semibold mb-3">Subscription Plans:</h3>
+        <ul className="list-disc ml-6 mb-4">
+          <li>
+            <strong>Annual Plan:</strong> $79.99/year - 650 credits per year
+          </li>
+          <li>
+            <strong>Monthly Plan:</strong> $6.99/month - 50 credits per month
+          </li>
+          <li>
+            <strong>Weekly Plan:</strong> $2.99/week - 12 credits per week
+          </li>
+        </ul>
+        <h3 className="text-xl font-semibold mb-3">Additional Credit Packs:</h3>
+        <ul className="list-disc ml-6">
+          <li>35 credits - $12.99</li>
+          <li>15 credits - $5.99</li>
+          <li>5 credits - $1.99</li>
+        </ul>
+        <p className="mt-3">
+          Credits are consumed when generating music with our AI. Unused
+          subscription credits expire at the end of each billing period and do
+          not roll over.
+        </p>
+      </section>
+
+      <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
         <p>
           If you have any questions about this Agreement or the app, please
