@@ -17,13 +17,13 @@ const Support = () => {
       setTimeout(() => {
         setCopied(false);
       }, 2000);
-    } catch (err) {
+    } catch {
       toast.error("Failed to copy email");
     }
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white via-primary/5 to-white text-gray-900">
+    <div className="min-h-screen bg-page text-ink">
       <Navbar />
       <div className="container mx-auto px-4 py-24 min-h-screen">
         <div className="max-w-3xl mx-auto text-center">
@@ -32,7 +32,7 @@ const Support = () => {
             Have questions or need assistance? Feel free to reach out to me.
           </p>
 
-          <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-100">
+          <div className="bg-white p-8 rounded-2xl shadow-lg border border-line">
             <p className="text-lg mb-4 text-gray-700">You can contact me at:</p>
             <div className="flex items-center justify-center space-x-4 flex-wrap gap-4">
               <span className="text-xl font-mono bg-gray-50 px-4 py-2 rounded border border-gray-200">{email}</span>

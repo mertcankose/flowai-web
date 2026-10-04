@@ -1,6 +1,7 @@
 import { contactEmail } from "@/constants/url";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import { PackItems, PlanItems } from "@/components/PricingList";
 
 const Eula = () => {
   useEffect(() => {
@@ -116,21 +117,11 @@ const Eula = () => {
         </p>
         <h3 className="text-xl font-semibold mb-3">Subscription Plans:</h3>
         <ul className="list-disc ml-6 mb-4">
-          <li>
-            <strong>Annual Plan:</strong> $79.99/year - 650 credits per year
-          </li>
-          <li>
-            <strong>Monthly Plan:</strong> $6.99/month - 50 credits per month
-          </li>
-          <li>
-            <strong>Weekly Plan:</strong> $2.99/week - 12 credits per week
-          </li>
+          <PlanItems />
         </ul>
         <h3 className="text-xl font-semibold mb-3">Additional Credit Packs:</h3>
         <ul className="list-disc ml-6">
-          <li>35 credits - $12.99</li>
-          <li>15 credits - $5.99</li>
-          <li>5 credits - $1.99</li>
+          <PackItems />
         </ul>
         <p className="mt-3">
           Credits are consumed when generating music with our AI. Unused

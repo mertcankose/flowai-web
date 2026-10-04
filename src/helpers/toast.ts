@@ -1,6 +1,6 @@
 import toast from "react-hot-toast";
 
-let autoCloseTime = 1800;
+const autoCloseTime = 1800;
 
 export const errorMessage = (text = "") => {
   toast.error(text, {

@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { contactEmail } from "@/constants/url";
 import { Link } from "react-router-dom";
+import { PackItems, PlanItems } from "@/components/PricingList";
 
 const PrivacyPolicy = () => {
   useEffect(() => {
@@ -30,6 +31,33 @@ const PrivacyPolicy = () => {
             <b>App usage data:</b> We collect data about how you use the app,
             such as the rap music you generate, your interactions with the AI
             features, and the time you spend on the app.
+          </li>
+          <li>
+            <b>Device identifier:</b> A unique identifier for your installation
+            provided by your device's operating system. The app has no sign-up;
+            this identifier works as your account.
+          </li>
+          <li>
+            <b>Content you create:</b> The descriptions, lyrics, titles, genre
+            and voice settings you enter, and the songs and cover art generated
+            from them.
+          </li>
+          <li>
+            <b>Purchase information:</b> The subscriptions and credit packs you
+            bought, your subscription status, credit balance and purchase
+            history. We do not receive your card or payment details.
+          </li>
+          <li>
+            <b>Notification token and language:</b> A push notification token,
+            if you allow notifications, and the language the app is set to.
+          </li>
+          <li>
+            <b>Diagnostics:</b> Crash and error reports, performance data,
+            device model, operating system version and IP address.
+          </li>
+          <li>
+            <b>Session recordings:</b> Recordings of how the app is used (taps,
+            scrolls, screens shown), used to improve its design.
           </li>
         </ul>
       </section>
@@ -122,7 +150,20 @@ const PrivacyPolicy = () => {
           <li>Firebase Analytics</li>
           <li>Expo</li>
           <li>Our AI Processing Services</li>
+          <li>RevenueCat (purchase validation and subscription status)</li>
+          <li>MusicAPI.ai (AI music generation)</li>
+          <li>Google Gemini API (AI lyrics and song titles)</li>
+          <li>Firebase Cloud Messaging (push notifications)</li>
+          <li>Sentry (crash and error reporting, session replay)</li>
+          <li>Microsoft Clarity (session recordings and heatmaps)</li>
+          <li>Audius and internet radio stations (music streaming)</li>
+          <li>Apple SKAdNetwork (advertising attribution)</li>
         </ul>
+        <p className="mt-3">
+          The app is built with React Native and Expo. Our servers run on
+          Node.js and store data in a MongoDB database. Connections between the
+          app, our servers and these services are encrypted using HTTPS.
+        </p>
       </section>
 
       <section className="mb-6">
@@ -157,21 +198,11 @@ const PrivacyPolicy = () => {
         <h2 className="text-2xl font-semibold mb-4">11. Subscription Plans & Pricing</h2>
         <p className="mb-3">Flow AI offers the following subscription plans:</p>
         <ul className="list-disc ml-6 mb-4">
-          <li>
-            <strong>Annual Plan:</strong> $79.99/year - 650 credits per year
-          </li>
-          <li>
-            <strong>Monthly Plan:</strong> $6.99/month - 50 credits per month
-          </li>
-          <li>
-            <strong>Weekly Plan:</strong> $2.99/week - 12 credits per week
-          </li>
+          <PlanItems />
         </ul>
         <p className="mb-3">Additional credits can be purchased separately:</p>
         <ul className="list-disc ml-6">
-          <li>35 credits - $12.99</li>
-          <li>15 credits - $5.99</li>
-          <li>5 credits - $1.99</li>
+          <PackItems />
         </ul>
       </section>
 

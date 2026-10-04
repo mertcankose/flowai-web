@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { contactEmail } from "@/constants/url";
 import { Link } from "react-router-dom";
+import { PackItems, PlanItems } from "@/components/PricingList";
 
 const TermsOfService = () => {
   useEffect(() => {
@@ -203,6 +204,14 @@ const TermsOfService = () => {
           <li>Firebase Analytics</li>
           <li>Expo</li>
           <li>Our AI Processing Services</li>
+          <li>RevenueCat (purchase validation and subscription status)</li>
+          <li>MusicAPI.ai (AI music generation)</li>
+          <li>Google Gemini API (AI lyrics and song titles)</li>
+          <li>Firebase Cloud Messaging (push notifications)</li>
+          <li>Sentry (crash and error reporting, session replay)</li>
+          <li>Microsoft Clarity (session recordings and heatmaps)</li>
+          <li>Audius and internet radio stations (music streaming)</li>
+          <li>Apple SKAdNetwork (advertising attribution)</li>
         </ul>
       </section>
 
@@ -228,21 +237,11 @@ const TermsOfService = () => {
         </p>
         <h3 className="text-xl font-semibold mb-3">Subscription Plans:</h3>
         <ul className="list-disc ml-6 mb-4">
-          <li>
-            <strong>Annual Plan:</strong> $79.99/year - 650 credits per year
-          </li>
-          <li>
-            <strong>Monthly Plan:</strong> $6.99/month - 50 credits per month
-          </li>
-          <li>
-            <strong>Weekly Plan:</strong> $2.99/week - 12 credits per week
-          </li>
+          <PlanItems />
         </ul>
         <h3 className="text-xl font-semibold mb-3">Additional Credits:</h3>
         <ul className="list-disc ml-6">
-          <li>35 credits - $12.99</li>
-          <li>15 credits - $5.99</li>
-          <li>5 credits - $1.99</li>
+          <PackItems />
         </ul>
       </section>
 
