@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "95C8494729.com.mertcankose.flowai",
+        "paths": ["/s/*"],
+        "appIDs": ["95C8494729.com.mertcankose.flowai"],
+        "components": [{ "/": "/s/*", "comment": "A shared song opens in the app" }]
+      }
+    ]
+  }
+}

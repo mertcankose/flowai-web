@@ -3,7 +3,7 @@ import "aos/dist/aos.css";
 import { BrowserRouter, useLocation } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
-import { Home, PrivacyPolicy, TermsOfService, Eula, Support } from "./pages";
+import { Home, PrivacyPolicy, TermsOfService, Eula, Support, SharedSong } from "./pages";
 
 const FlowaiRoutes = () => {
   const location = useLocation();
@@ -15,6 +15,7 @@ const FlowaiRoutes = () => {
       <Route path="/">
         <Route index element={<Home />} />
         <Route path="/support" element={<Support />} />
+        <Route path="/s/:shareId" element={<SharedSong />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-of-service" element={<TermsOfService />} />
         <Route path="/eula" element={<Eula />} />
